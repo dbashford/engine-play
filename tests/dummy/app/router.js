@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.mount('engine-play');
 });
+
 
 export default Router;
